@@ -35,9 +35,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/plugins/swiper.min.css",
+              "src/assets/css/plugins/fancybox.min.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+             "src/assets/js/plugins/jquery.min.js",
+             "src/assets/js/plugins/fancybox.min.js",
+             "src/assets/js/plugins/swup.min.js",
+             "src/assets/js/plugins/swiper.min.js",
+             "src/assets/js/plugins/parsley.min.js",
+             "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -101,5 +111,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8447c35e-498b-4362-8860-79f0e10456c7"
   }
 }
