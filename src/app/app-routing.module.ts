@@ -4,6 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { CategoriesComponent } from './pages/categories/categories.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CategoriesInnerComponent } from './pages/categories-inner/categories-inner.component';
+import { CategoryMainComponent } from './pages/category-main/category-main.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,10 @@ const routes: Routes = [
   {
     path: 'categories-inner',
     component: CategoriesInnerComponent,
+  },
+  {
+    path: 'category-main',
+    component: CategoryMainComponent,
   },
 ];
 

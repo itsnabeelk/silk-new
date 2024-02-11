@@ -10,6 +10,7 @@ import { PreLoaderComponent } from './pages/pre-loader/pre-loader.component';
 import { CategoriesComponent } from './pages/categories/categories.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CategoriesInnerComponent } from './pages/categories-inner/categories-inner.component';
+import { CategoryMainComponent } from './pages/category-main/category-main.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CategoriesInnerComponent } from './pages/categories-inner/categories-in
     PreLoaderComponent,
     CategoriesComponent,
     ContactComponent,
-    CategoriesInnerComponent
+    CategoriesInnerComponent,
+    CategoryMainComponent
   ],
   imports: [
     BrowserModule,
